@@ -1,0 +1,57 @@
+#Arrays
+
+1d array
+        int a[]=new int[5];
+        int a[]={33,3,4,5};
+        
+        for(data_type variable:array){  
+            //body of the loop  
+         }  
+         
+         printArray(new int[]{10,22,44,66});  //passing anonymous array to method  
+         
+         int[][] arr=new int[3][3];
+         int arr[][]={{1,2,3},{2,4,5},{4,4,5}};  
+         
+        int arr[][] = new int[3][]; //jagged array  
+        arr[0] = new int[3];  
+        arr[1] = new int[4];  
+        arr[2] = new int[2];  
+   
+ 
+
+
+java.util.Arrays methods
+
+		Comparator<Integer> comre = new Comparator<Integer>() //only wrapper class has to be used  //anonymous class 
+		{
+		    @Override
+		    public int compare (Integer c, Integer b) {
+		        if(c > b) {
+		            return 1;
+		        } else {
+		            return -1;
+		        }
+		    }
+		};
+		
+		Arrays.sort(a, comre);
+    
+    binarySearch(array)	 // -1 if not found, or index
+    binarySearch(array, fromIndex, toIndex, key, Comparator)	
+    
+    compare(array 1, array 2)	// check only the values 
+    int carr[]=arr.clone();   // clone the array
+    copyOfRange(originalArray, fromIndex, endIndex)
+    
+    equals(array1, array2)
+    
+    fill(originalArray, fillValue)	
+    
+    sort(originalArray)
+    sort(originalArray, fromIndex, endIndex)
+    sort(T[] a, int fromIndex, int toIndex, Comparator< super T> c)
+    sort(T[] a, Comparator< super T> c)
+    
+    toString(originalArray) 
+    
