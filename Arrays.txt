@@ -40,8 +40,7 @@ java.util.Arrays methods
     sort(T[] a, Comparator< super T> c)
     
     toString(originalArray) 
-    
-    
+
     
 Comparator Interface
 
@@ -58,3 +57,5 @@ Comparator Interface
 		};
 		
 		Arrays.sort(a, fnName);
+		
+		Collections.reverseOrder() // compare in reverse order, create an object 
