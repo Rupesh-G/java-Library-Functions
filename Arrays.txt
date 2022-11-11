@@ -1,6 +1,7 @@
 #Arrays
 
-1d array
+Array declaration and initialization
+
         int a[]=new int[5];
         int a[]={33,3,4,5};
         
@@ -17,13 +18,34 @@
         arr[0] = new int[3];  
         arr[1] = new int[4];  
         arr[2] = new int[2];  
-   
- 
+
 
 
 java.util.Arrays methods
 
-		Comparator<Integer> comre = new Comparator<Integer>() //only wrapper class has to be used  //anonymous class 
+    binarySearch(array, key)	 // -1 if not found, or index
+    binarySearch(array, fromIndex, toIndex, key, Comparator)	
+    
+    compare(array 1, array 2)	// check only the values 
+    equals(array1, array2)      // check only the values
+    
+    
+    int carr[]=arr.clone();   // clone the array
+    copyOfRange(originalArray, fromIndex, endIndex)
+    fill(originalArray, fillValue)	// fill the array with the given number
+    
+    sort(originalArray)
+    sort(originalArray, fromIndex, endIndex)
+    sort(T[] a, int fromIndex, int toIndex, Comparator< super T> c)
+    sort(T[] a, Comparator< super T> c)
+    
+    toString(originalArray) 
+    
+    
+    
+Comparator Interface
+
+		Comparator<Integer> fnName = new Comparator<Integer>() //only wrapper class has to be used  //anonymous class 
 		{
 		    @Override
 		    public int compare (Integer c, Integer b) {
@@ -35,23 +57,4 @@ java.util.Arrays methods
 		    }
 		};
 		
-		Arrays.sort(a, comre);
-    
-    binarySearch(array)	 // -1 if not found, or index
-    binarySearch(array, fromIndex, toIndex, key, Comparator)	
-    
-    compare(array 1, array 2)	// check only the values 
-    int carr[]=arr.clone();   // clone the array
-    copyOfRange(originalArray, fromIndex, endIndex)
-    
-    equals(array1, array2)
-    
-    fill(originalArray, fillValue)	
-    
-    sort(originalArray)
-    sort(originalArray, fromIndex, endIndex)
-    sort(T[] a, int fromIndex, int toIndex, Comparator< super T> c)
-    sort(T[] a, Comparator< super T> c)
-    
-    toString(originalArray) 
-    
+		Arrays.sort(a, fnName);
