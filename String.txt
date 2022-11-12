@@ -1,1 +1,26 @@
+String st = "Rupesh";  
 
+char[] ch = {'R','u','p','e','s','h'};  
+String s = new String(ch);  
+
+String s = new String("Rupesh");
+
+
+	    char charAt(int index)
+  	  int length()
+      
+      boolean isEmpty()
+      
+      String concat(String str)
+      String replace(char old, char new)  // All occurances to new char
+      
+      boolean equals(Object another)
+      
+     	String toLowerCase()
+      String toUpperCase()
+      
+     	String trim()                // Remove the spaces in front and back of the string
+      
+      String substring(int beginIndex)
+    	String substring(int beginIndex, int endIndex)
+      int indexOf(String substring)   //return the index of staring the sequence
