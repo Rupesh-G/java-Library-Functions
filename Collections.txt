@@ -1,33 +1,82 @@
-ArrayList<Integer> arr = new ArrayList<Integer>(int capacity or empty array); 
-
-void add(int index, object o) // add at a specific index
-boolean add(object o)         // add at last
-void clear()                  // clear the entire arrayList
-object get(int index)	        // get the object at that index   
-boolean isEmpty()	             
-boolean contains(object o)	  
-object indexOf(object o)	    // first occurance of the object
-object remove(int index)	     
-set(int index, E element)	 
-void sort(Comparator<? super E> c)	
-int size()	
+ArrayList<Integer> arr = new ArrayList<Integer>(int capacity or empty array)
+ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6))
 
 
-LinkedList<object> ll = new LinkedList<>();
+            void add(int index, object o) // add at a specific index
+            boolean add(object o)         // add at last
+            void clear()                  // clear the entire arrayList
+            object get(int index)	        // get the object at that index   
+            boolean isEmpty()	             
+            boolean contains(object o)	  
+            object indexOf(object o)	    // first occurance of the object
+            object remove(int index)	     
+            set(int index, E element)	 
+            void sort(Comparator<? super E> c)	
+            int size()	
 
-void addLast(object o)
-void addFirst(object o)
-object getFirst()	
-object getLast()	
-object peek()	 // retrives the object that been add last
-object pop()	 // retrives and deletes
-void push(object o)	// push the object first
+Example of arraylist of arraylist
+
+            ArrayList<ArrayList<Integer> > aList = new ArrayList<ArrayList<Integer> >();
+    
+            ArrayList<Integer> a1 = new ArrayList<Integer>();
+            a1.add(1);
+            a1.add(2);
+            aList.add(a1);       
 
 
-PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>(); // usually perform min heap
-PriorityQueue<String> pQueue = new PriorityQueue<String>(new The_Comparator());
+LinkedList<object> ll = new LinkedList<>()
 
-boolean add(object o)
-object peek()
-object poll()
-object remove() 
+            boolean add(object o)         // add at last
+            void addLast(object o)
+            void addFirst(object o)
+            object getFirst()	
+            object getLast()	
+            object peek()	 // retrives the object that been add last
+            object pop()	 // retrives and deletes
+            void push(object o)	// push the object first
+
+            void add(int index, object o) // add at a specific index
+            void clear()                  // clear the entire arrayList
+            object get(int index)	        // get the object at that index   
+            boolean isEmpty()	             
+            boolean contains(object o)	  
+            object indexOf(object o)	    // first occurance of the object
+            object remove(int index)	     
+            set(int index, E element)	 
+            void sort(Comparator<? super E> c)	
+            int size()	
+
+
+
+
+PriorityQueue<object> pQueue = new PriorityQueue<>(); // usually perform min heap   
+PriorityQueue<object> pQueue = new PriorityQueue<>(Comparator< super E> c)    // Collections.reverseOrder() for max heap
+
+            boolean add(object o)
+            object peek()
+            object remove() 
+            boolean isEmpty()
+
+
+ HashSet<object> set=new HashSet()
+ 
+             boolean	add(Object o)
+             void	clear()                      //clear the entire hashset
+             boolean	contains(Object o)
+             boolean	isEmpty()
+             boolean	remove(Object o)
+             int	size()  
+ 
+ 
+ HashMap<Object1, object2> map = new HashMap<>();
+ 
+             object value put(Object key, Object value)
+             object value get(Object key)
+             void clear()
+             boolean containsValue(Object value)	
+             boolean containsKey(Object key)	
+             boolean isEmpty()	
+             object value remove(Object key)	
+             boolean isEmpty()	
+             object value replace(object key, object value)	
+             int size()	
