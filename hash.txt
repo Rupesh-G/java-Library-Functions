@@ -1,11 +1,12 @@
  HashSet<object> set=new HashSet()
  
              boolean	add(Object o)
-             void	clear()                      //clear the entire hashset
+             void	clear()                      // clear the entire hashset
              boolean	contains(Object o)
              boolean	isEmpty()
              boolean	remove(Object o)
-             int	size()  
+             int	size()
+             boolean equals()                  // compare two hashsets
  
  
  HashMap<Object1, object2> map = new HashMap<>();
@@ -17,6 +18,5 @@
              boolean containsKey(Object key)	
              boolean isEmpty()	
              object value remove(Object key)	
-             boolean isEmpty()	
              object value replace(object key, object value)	
              int size()	
