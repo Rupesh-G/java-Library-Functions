@@ -1,2 +1,1 @@
-
-It contains mostly used data structures  and their corresponding library functions.
+This repo contains commonly used functions(methods) in java that actually helpfull in solving problems in any online judge. 
