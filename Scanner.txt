@@ -1,0 +1,14 @@
+Scanner sc = new Scanner(System.in
+
+        // String input
+        String name = sc.nextLine()
+        
+        // Character input ... there is no nextChar
+        char gender = sc.next().charAt(0)
+        
+        int age = sc.nextInt()
+        long mobileNo = sc.nextLong()
+        double cgpa = sc.nextDouble()
+        
+        // Check if an int value is available
+        boolean hasNextInt()
