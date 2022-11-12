@@ -1,0 +1,22 @@
+ HashSet<object> set=new HashSet()
+ 
+             boolean	add(Object o)
+             void	clear()                      //clear the entire hashset
+             boolean	contains(Object o)
+             boolean	isEmpty()
+             boolean	remove(Object o)
+             int	size()  
+ 
+ 
+ HashMap<Object1, object2> map = new HashMap<>();
+ 
+             object value put(Object key, Object value)
+             object value get(Object key)
+             void clear()
+             boolean containsValue(Object value)	
+             boolean containsKey(Object key)	
+             boolean isEmpty()	
+             object value remove(Object key)	
+             boolean isEmpty()	
+             object value replace(object key, object value)	
+             int size()	
