@@ -1,0 +1,10 @@
+Math.abs()	          // Absolute value of the number.
+Math.max()	          // Largest of two values.
+Math.min()	          // Smallest of two values.
+Math.round()	        // Round of the decimal numbers to the nearest value.
+Math.sqrt()	          // Square root of a number.
+Math.cbrt()	          // Cube root of a number.
+Math.pow()            // First argument raised to the power to second argument.
+Math.ceil()	          // Smallest integer value that is greater than or equal to the argument.
+Math.floor()	        // Largest integer value which is less than or equal to the argument.
+Math.random()	        // Returns  double value with a positive sign, greater than or equal to 0.0 and less than 1.0.
