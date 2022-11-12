@@ -14,10 +14,20 @@ int size()
 
 
 LinkedList<object> ll = new LinkedList<>();
+
 void addLast(object o)
 void addFirst(object o)
 object getFirst()	
 object getLast()	
-object peek()	
-pop()	
-void push(E e)	
+object peek()	 // retrives the object that been add last
+object pop()	 // retrives and deletes
+void push(object o)	// push the object first
+
+
+PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>(); // usually perform min heap
+PriorityQueue<String> pQueue = new PriorityQueue<String>(new The_Comparator());
+
+boolean add(object o)
+object peek()
+object poll()
+object remove() 
