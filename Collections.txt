@@ -1,0 +1,23 @@
+ArrayList<Integer> arr = new ArrayList<Integer>(int capacity or empty array); 
+
+void add(int index, object o) // add at a specific index
+boolean add(object o)         // add at last
+void clear()                  // clear the entire arrayList
+object get(int index)	        // get the object at that index   
+boolean isEmpty()	             
+boolean contains(object o)	  
+object indexOf(object o)	    // first occurance of the object
+object remove(int index)	     
+set(int index, E element)	 
+void sort(Comparator<? super E> c)	
+int size()	
+
+
+LinkedList<object> ll = new LinkedList<>();
+void addLast(object o)
+void addFirst(object o)
+object getFirst()	
+object getLast()	
+object peek()	
+pop()	
+void push(E e)	
