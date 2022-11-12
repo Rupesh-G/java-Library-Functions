@@ -1,14 +1,12 @@
 Scanner sc = new Scanner(System.in
 
-        // String input
-        String name = sc.nextLine()
+        String name = sc.nextLine()        // entire line
+        String name = sc.next()            // till space
         
-        // Character input ... there is no nextChar
-        char gender = sc.next().charAt(0)
+        char gender = sc.next().charAt(0)  // There is no nextChar
         
         int age = sc.nextInt()
         long mobileNo = sc.nextLong()
         double cgpa = sc.nextDouble()
         
-        // Check if an int value is available
-        boolean hasNextInt()
+        boolean hasNextInt()              // Check if an int value is available
