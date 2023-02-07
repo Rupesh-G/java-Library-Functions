@@ -20,3 +20,21 @@
              object value remove(Object key)	
              object value replace(object key, object value)	
              int size()	
+             
+TreeSet<Integer> set = new TreeSet<>();
+          
+           add(Integer)
+           clear()
+           contains(Integer)
+           isEmpty()
+           remove(Integer)
+           size()
+           
+           ceiling(Integer)  //the least element in this set greater than or equal to the given element 
+           floor(Integer)  //greatest element in this set less than or equal to the given element, or null
+           
+           first()      //the first element in TreeSet if TreeSet is not null
+           last()        // last element in TreeSet if TreeSet is not null
+
+           higher(Integer)  //the least element in this set strictly greater than the given element, or null 
+           lower(Integer)   //the greatest element in this set strictly less than the given element, or null
